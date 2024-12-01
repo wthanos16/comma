@@ -1,7 +1,7 @@
 # comma
 Adds commas to ints and floats
 
-Comma dir can be placed in /usr/local/go/src
+Comma dir can be placed in /usr/local/go/src\n
 The func can take variables or number inputs of int and float64, but the interface can be changed to uint8, int16, float32, etc.
 
 
