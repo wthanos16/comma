@@ -7,7 +7,9 @@ import (
 )
 
 type Generic interface {
-	~int | ~float64
+	~uint8 | ~uint16 | ~uint32 | ~uint64 |
+	~int | ~int8 | ~int16 | ~int32 | ~int64 |
+	~float32 | ~float64
 }
 
 func Comma[T Generic](num T) string {
